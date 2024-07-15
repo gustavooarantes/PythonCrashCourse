@@ -1,0 +1,12 @@
+places = ["Paris", "Tokyo", "Vegas", "Toronto", "Rome"]
+print(f"The original list is {places}")
+print(f"The sorted list is {sorted(places)}")
+print(f"But you can see that the list is still {places}")
+places.reverse()
+print(f"Now the list is reversed: {places}")
+places.reverse()
+print(f"Now the list is back to it's original state: {places}")
+places.sort()
+print(f"Here's the list in alphabetical order: {places}")
+places.sort(reverse=True)
+print(f"Now here's the list in reverse alphabetical order: {places}")
